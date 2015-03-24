@@ -1,22 +1,18 @@
 #IndeStruct
 
-* Home https://github.com/step1profit/inde_struct
-* Code https://github.com/step1profit/inde_struct
-* Doco https://github.com/step1profit/inde_struct/blob/master/README.md
-* Bugs https://github.com/step1profit/inde_struct/issues
+https://github.com/step1profit/inde_struct
 
-##DESCRIPTION:
+##DESCRIPTION
 
 Ruby global Constant configuration variables with indifferent access. In other words, the same configuration value with non-case-sensitive accessor.
 
-##FEATURES:
+##FEATURES
 
 * Case-insensitive access to variables - access your way... instead of changing the original config file
 * Accepts Hash or YAML-string
 * Read YAML from filepath or File class
 
-##SYNOPSIS:
-
+##SYNOPSIS
 
 ###Ruby env
 
@@ -83,11 +79,11 @@ CONFIG.WHATevEr # => 'awesome'
 CONFIG.WHateVeR # => 'awesome'
 ```
 
-##REQUIREMENTS:
+##REQUIREMENTS
 
 * Ruby 1.9 or higher
 
-##INSTALL:
+##INSTALL
 
 Command Line
 
@@ -101,7 +97,7 @@ Gemfile
 gem 'inde_struct'
 ```
 
-##LICENSE:
+##LICENSE
 
 (The MIT License)
 

@@ -4,6 +4,7 @@ Manifest.txt
 README.md
 Rakefile
 bin/inde_struct
+inde_struct.gemspec
 lib/inde_struct.rb
 lib/inde_struct/parser.rb
 lib/inde_struct/parser/hash_any_case.rb
