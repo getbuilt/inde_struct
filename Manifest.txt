@@ -1,9 +1,7 @@
-.autotest
 History.txt
 LICENSE
 Manifest.txt
 README.md
-README.txt
 Rakefile
 bin/inde_struct
 lib/inde_struct.rb
@@ -12,4 +10,6 @@ lib/inde_struct/parser/hash_any_case.rb
 lib/inde_struct/parser/open_struct_any_case.rb
 lib/inde_struct/reader.rb
 lib/inde_struct/version.rb
+test/files/config.yml
+test/files/empty.yml
 test/test_inde_struct.rb
