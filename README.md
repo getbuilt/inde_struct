@@ -22,38 +22,38 @@ Ruby global Constant configuration variables with indifferent access. In other w
 
 Hash
 
-'''ruby
+```ruby
 hash = {whatever: 'awesome'}
 # create global constant
 CONFIG = IndeStruct.ible(hash)
-'''
+```
 
 YAML-string
 
-'''ruby
+```ruby
 yaml_string = "---\nwhatever: awesome\n"
 CONFIG = IndeStruct.ible(yaml_string)
-'''
+```
 
 Filepath
 
-'''ruby
+```ruby
 # some_dir/config.yml # => "---\nwhatever: awesome\n"
 filepath = 'some_dir/config.yml'
 CONFIG = IndeStruct.ible(filepath)
-'''
+```
 
 File
 
-'''ruby
+```ruby
 # some_dir/config.yml # => "---\nwhatever: awesome\n"
 file = File.open('test/files/config.yml')
 CONFIG = IndeStruct.ible(file)
-'''
+```
 
 ###Rails env
 
-'''ruby
+```ruby
 # in your_rails_app/config/application.rb
 
 require 'inde_struct' # if not required via Gemfile
@@ -67,13 +67,13 @@ CONFIG = IndeStruct.ible(hash)
 #module YourRailsApp
 #  class Application < Rails::Application
 # [...]
-'''
+```
 
 ### Result
 
 Result is the same for both Ruby env and Rails env
 
-'''ruby
+```ruby
 # wherever you want:
 CONFIG.whaTeVer # => 'awesome'
 CONFIG.wHAteveR # => 'awesome'
@@ -81,7 +81,7 @@ CONFIG.WHaTevER # => 'awesome'
 CONFIG.whatEVEr # => 'awesome'
 CONFIG.WHATevEr # => 'awesome'
 CONFIG.WHateVeR # => 'awesome'
-'''
+```
 
 ##REQUIREMENTS:
 
@@ -91,15 +91,15 @@ CONFIG.WHateVeR # => 'awesome'
 
 Command Line
 
-'''
+```
 $ gem install inde_struct
-'''
+```
 
 Gemfile
 
-'''ruby
+```ruby
 gem 'inde_struct'
-'''
+```
 
 ##LICENSE:
 
