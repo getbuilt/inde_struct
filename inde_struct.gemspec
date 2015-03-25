@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Step1Profit"]
   s.date = "2015-03-24"
-  s.description = "Ruby global Constant configuration variables with indifferent access. In other words, the same configuration value with non-case-sensitive accessor."
+  s.description = "Ruby global Constant configuration variables with indifferent access. In other words, the same configuration value with case insensitive accessor."
   s.email = ["sales@step1profit.com"]
   s.homepage = "https://github.com/step1profit/inde_struct"
   # s.executables = ["inde_struct"]
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.23"
-  s.summary = "Ruby global Constant configuration variables with indifferent access. In other words, the same configuration value with non-case-sensitive accessor."
+  s.summary = "Ruby global Constant configuration variables with indifferent access. In other words, the same configuration value with case insensitive accessor."
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
