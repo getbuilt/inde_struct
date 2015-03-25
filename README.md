@@ -4,7 +4,7 @@ https://github.com/step1profit/inde_struct
 
 ##DESCRIPTION
 
-Ruby global Constant configuration variables with indifferent access. In other words, the same configuration value with non-case-sensitive accessor.
+Ruby global Constant configuration variables with indifferent access. In other words, the same configuration value with case insensitive accessor.
 
 ##FEATURES
 
