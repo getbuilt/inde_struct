@@ -1,10 +1,17 @@
 #IndeStruct
+[![Gem Version](https://badge.fury.io/rb/inde_struct.svg)](https://rubygems.org/gems/inde_struct)
+[![Build Status](https://travis-ci.org/step1profit/inde_struct.svg)](https://travis-ci.org/step1profit/inde_struct)
+[![Code Climate](https://codeclimate.com/github/step1profit/inde_struct/badges/gpa.svg)](https://codeclimate.com/github/step1profit/inde_struct)
+[![Test Coverage](https://codeclimate.com/github/step1profit/inde_struct/badges/coverage.svg)](https://codeclimate.com/github/step1profit/inde_struct)
+[![Dependency Status](https://gemnasium.com/step1profit/inde_struct.svg)](https://gemnasium.com/step1profit/inde_struct)
+[![Inline docs](http://inch-ci.org/github/step1profit/inde_struct.svg?branch=master)](http://inch-ci.org/github/step1profit/inde_struct)
 
-https://github.com/step1profit/inde_struct
+* https://github.com/step1profit/inde_struct
+* http://seattlerb.org
 
 ##DESCRIPTION
 
-Ruby global Constant configuration variables with indifferent access. In other words, the same configuration value with non-case-sensitive accessor.
+Ruby global Constant configuration variables with indifferent access. In other words, the same configuration value with case insensitive accessor.
 
 ##FEATURES
 

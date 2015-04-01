@@ -1,0 +1,15 @@
+language: ruby
+rvm:
+- ruby-1.9.2
+- ruby-1.9.3
+- ruby-2.0
+- ruby-2.1
+- ruby-2.2
+os:
+- linux
+notifications:
+  slack:
+    secure: nM0G9P6jxhacZ3ZtQwn5FiR0CHxnLwx6N4xRp9SFjbQm3S0dF9pBP+HzC3zvr66iOa8weocqPt54eZOCBdunqSaiMYHq4pUFZUHXQKn+st6YyrNemY/7jr4kIYTVJnQZ5pxO7UX8vu8nH0B4dh4uLT4shCLoLVey0kwbL6FDr98=
+addons:
+  code_climate:
+    repo_token: 694c8d5a6746d53c7affc7dd822db872b42457ae954a448d60c29b104572f791

@@ -1,4 +1,6 @@
-History.txt
+.travis.yml
+Gemfile
+HISTORY.md
 LICENSE
 Manifest.txt
 README.md
