@@ -45,7 +45,7 @@ class TestIndeStruct < MiniTest::Unit::TestCase
   end
 
   def test_ible_accessor_case_sensitivity
-    key = SecureRandom.urlsafe_base64(rand(1..16))
+    key = SecureRandom.urlsafe_base64(rand(16) + 1)
     exp = 'awesome'
     config = IndeStruct.ible({key => exp})
     act = config.send(rand_case(key))
