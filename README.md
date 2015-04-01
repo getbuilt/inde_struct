@@ -5,6 +5,7 @@
 [![Test Coverage](https://codeclimate.com/github/step1profit/inde_struct/badges/coverage.svg)](https://codeclimate.com/github/step1profit/inde_struct)
 [![Dependency Status](https://gemnasium.com/step1profit/inde_struct.svg)](https://gemnasium.com/step1profit/inde_struct)
 [![Inline docs](http://inch-ci.org/github/step1profit/inde_struct.svg?branch=master)](http://inch-ci.org/github/step1profit/inde_struct)
+[![Yard Docs](http://img.shields.io/badge/yard-docs-blue.svg)](http://www.rubydoc.info/gems/inde_struct)
 
 * https://github.com/step1profit/inde_struct
 * http://seattlerb.org
