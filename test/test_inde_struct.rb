@@ -6,12 +6,13 @@ require "minitest/autorun"
 require "inde_struct"
 require "securerandom"
 
+
 # randomize case of String
 def rand_case(x)
   x.gsub(/./){|y| [y,y.swapcase][rand(2)]}
 end
 
-class TestIndeStruct < Minitest::Test
+class TestIndeStruct < MiniTest::Unit::TestCase
   def setup
     @files = File.join(File.expand_path(File.dirname(__FILE__)), "files")
   end
