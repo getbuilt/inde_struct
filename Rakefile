@@ -20,8 +20,6 @@ Hoe.spec "inde_struct" do
   self.description  = "Ruby global Constant configuration variables with indifferent access. In other words, the same configuration value with case insensitive accessor."
   self.summary      = description
   self.urls         = ['https://github.com/step1profit/inde_struct']
-  #self.readme_file  = 'README.md'
-  #self.history_file = 'HISTORY.md'
   self.yard_title   = 'IndeStruct'
   self.yard_markup  = 'markdown'
   self.testlib      = :minitest

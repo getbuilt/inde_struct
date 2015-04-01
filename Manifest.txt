@@ -1,6 +1,6 @@
 .travis.yml
 Gemfile
-HISTORY.md
+History.txt
 LICENSE
 Manifest.txt
 README.md

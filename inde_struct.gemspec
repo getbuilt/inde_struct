@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "inde_struct"
-  s.version = "1.0.1.20150401115939"
+  s.version = "1.0.3.20150401130831"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Step1Profit"]
@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.description = "Ruby global Constant configuration variables with indifferent access. In other words, the same configuration value with case insensitive accessor."
   s.email = ["sales@step1profit.com"]
   s.executables = ["inde_struct"]
-  s.extra_rdoc_files = ["HISTORY.md", "Manifest.txt", "README.md"]
-  s.files = [".travis.yml", "Gemfile", "HISTORY.md", "LICENSE", "Manifest.txt", "README.md", "Rakefile", "bin/inde_struct", "inde_struct.gemspec", "lib/inde_struct.rb", "lib/inde_struct/parser.rb", "lib/inde_struct/parser/hash_any_case.rb", "lib/inde_struct/parser/open_struct_any_case.rb", "lib/inde_struct/reader.rb", "lib/inde_struct/version.rb", "test/files/config.yml", "test/files/empty.yml", "test/test_inde_struct.rb", ".gemtest"]
+  s.extra_rdoc_files = ["Manifest.txt", "README.md", "History.txt"]
+  s.files = [".travis.yml", "Gemfile", "History.txt", "LICENSE", "Manifest.txt", "README.md", "Rakefile", "bin/inde_struct", "inde_struct.gemspec", "lib/inde_struct.rb", "lib/inde_struct/parser.rb", "lib/inde_struct/parser/hash_any_case.rb", "lib/inde_struct/parser/open_struct_any_case.rb", "lib/inde_struct/reader.rb", "lib/inde_struct/version.rb", "test/files/config.yml", "test/files/empty.yml", "test/test_inde_struct.rb", ".gemtest"]
   s.homepage = "https://github.com/step1profit/inde_struct"
   s.licenses = ["MIT"]
   s.rdoc_options = ["--title", "IndeStruct", "--markup", "markdown", "--quiet"]
